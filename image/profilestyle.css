@@ -1,0 +1,87 @@
+body {
+	background: #9FD8DF;
+	color: black;
+	font-family: 'Times New Romance';
+	font-size: 10px;
+}
+h1, h2 {
+	font-family: 'Times New Romance', sans-serif;
+}
+h1 {
+	color: #4692C2;
+	font-size: 40px;
+	font-weight: 500;
+}
+h2 {
+	color: #4692C2;
+	font-size: 20px;
+	font-weight: 300;
+}
+a {
+	font-family: 'Times New Romance', sans-serif;
+	text-decoration: none;
+	color: #5B86DA;
+	font-size: 10px;
+	font-weight: 100;
+}
+a:hover {
+	color: #C22021;
+}
+/* custom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+@media (max-width: 500px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+@media (max-width: 500px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+.card-white {
+	background-color: white;
+	padding: 50px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 6px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 10%;
+	width: 200px;
+	height: 200px;
+}
+.btn-blue {
+	background-color: white;
+	color: lightcoral;
+	padding: 15px 20px;
+	border-radius: 6px;
+}
+.btn-blue:hover {
+	background-color: lightcyan;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: rgb(200,250,230);
+}
+.list-inline i {
+	color: midnightblue;
+}
+#introduction p {
+	margin-bottom: 50px;
+}
